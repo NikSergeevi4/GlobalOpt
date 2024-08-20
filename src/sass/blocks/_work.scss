@@ -1,0 +1,24 @@
+.work {
+    &__wrapper {
+        padding-top: 37px;
+        display: flex;
+        justify-content: space-around;
+    }
+    &__item {
+        width: 360px;
+    }
+    &__title {
+        padding-top: 27px;
+        font-weight: 700;
+        font-size: 18px;
+        text-align: center;
+        color: $main-color;
+    }
+    &__descr {
+        padding-top: 5px;
+        font-size: 14px;
+        font-weight: 300;
+        color: #3a3a3a;
+        text-align: center;
+    }
+}

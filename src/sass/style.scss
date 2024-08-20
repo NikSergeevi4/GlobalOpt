@@ -28,12 +28,50 @@
 .container {
     padding-left: 390px;
     padding-right: 390px;
-
 }
+.title {
+    padding-top: 58px;
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+    color: #2e2e2e;
+    text-transform: uppercase;
+    line-height: 10px;
+}
+.subtitle {
+    padding-top: 10px;
+    font-size: 21px;
+    font-weight: 300;
+    text-align: center;
+    color: #2e2e2e;
+}
+.white__title{
+    padding-top: 20px;
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+}
+.white__subtitle {
+    padding-top: 22px;
+    font-size: 19px;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+}
+.divider {
+    margin-top: 35px;
+    width: 150px;
+    height: 1px;
+    background-color: $main-color;
+    border: none;
+}
+
 }
 
 @import './blocks/promo.scss';
 @import './blocks/header.scss';
-@import './blocks/title.scss';
 @import './blocks/advantages.scss';
+@import './blocks/work.scss';
+@import './blocks/support.scss';
 
