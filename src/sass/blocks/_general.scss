@@ -1,0 +1,60 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+.title {
+    padding-top: 58px;
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+    color: #2e2e2e;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    padding-top: 10px;
+    font-size: 21px;
+    font-weight: 300;
+    text-align: center;
+    color: #2e2e2e;
+}
+
+.white__title {
+    padding-top: 20px;
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+}
+
+.white__subtitle {
+    padding-top: 22px;
+    font-size: 19px;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+}
+
+.divider {
+    margin-top: 35px;
+    max-width: 150px;
+    height: 1px;
+    background-color: $main-color;
+    border: none;
+}
+
+p,
+h2,
+h3,
+ul {
+    margin: 0;
+}
+ul {
+    padding-inline-start: 0;
+}

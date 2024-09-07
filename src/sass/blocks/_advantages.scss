@@ -1,8 +1,10 @@
 .advantages {
+    padding-bottom: 70px;
     background-color: #f3f3f3;
     min-height: 600px;
     &__img {
         padding-right: 15px;
+        width: 64px;
     }
     &__text {
         text-align: left;
@@ -20,8 +22,9 @@
     }
     &__item {
         margin-top: 15px;
-        width: 600px;
+        max-width: 450px;
         display: flex;
+        align-items: center;
     }
     &__wrapper {
         padding-top: 35px;
@@ -30,7 +33,4 @@
         justify-content: space-around;
         align-items: center;
     }
-    
 }
-
-

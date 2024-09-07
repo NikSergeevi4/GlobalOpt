@@ -1,22 +1,23 @@
 .cooperation {
+    padding-bottom: 51px;
     min-height: 455px;
     background-color: #f3f3f3;
     &__wrapper {
         padding-top: 20px;
         display: flex;
+        gap: 16px;
         flex-wrap: wrap;
         justify-content: space-around;
-        align-items:baseline;
+        align-items: baseline;
     }
     &__item {
         padding-top: 20px;
-        margin-right: 40px;
-        width: 260px;
+        max-width: 240px;
     }
     &__img {
         img {
             margin: 0 auto;
-            display:block;
+            display: block;
         }
     }
     &__title {

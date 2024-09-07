@@ -1,6 +1,7 @@
 .promo {
-    background: url('/img/first_screen/first_background.jpg') center center/cover no-repeat;
+    background: url('/img/first_background.jpg') center center/cover no-repeat;
     min-height: 800px;
+    padding-bottom: 50px;
     &__wrapper {
         padding-top: 48px;
     }
@@ -25,6 +26,9 @@
         text-transform: uppercase;
     }
     &__divider {
+        display: flex;
+        justify-content: baseline;
+        align-items: center;
         padding-top: 38px;
         text-align: center;
     }
@@ -32,12 +36,12 @@
     &__line {
         display: inline-block;
         height: 1px;
-        width: 520px;
+        width: 50%;
         color: white;
     }
     &__circle {
         display: inline-block;
-        margin: 0px 5px 5px 5px;
+        margin: 5px;
         width: 5px;
         height: 5px;
         border-radius: 100%;
@@ -45,25 +49,32 @@
     }
 }
 
-.services__wrapper {
-    padding-top: 31px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    .services__item {
+.services {
+    &__wrapper {
+        padding-top: 31px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        justify-content: space-around;
+        align-items: center;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         text-align: center;
     }
-    .services__descr {
-        width: 255px;
+    &__descr {
+        max-width: 230px;
         font-size: 16px;
         font-weight: 300;
         color: white;
     }
-    .services__img {
+    &__img {
         margin-bottom: 13px;
         img {
-        margin: 0 auto;
-        display: block;
+            margin: 0 auto;
+            display: block;
         }
     }
 }
@@ -82,6 +93,3 @@
     border: none;
     border-radius: 20px;
 }
-
-
-

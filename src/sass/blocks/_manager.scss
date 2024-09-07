@@ -1,7 +1,8 @@
 .manager {
     margin-top: 60px;
-    height: 345px;
-    background: url('/img/sixth_screen/manager_background.jpg') center center/cover no-repeat;
+    padding-bottom: 50px;
+    min-height: 345px;
+    background: url('/img/manager_background.jpg') center center/cover no-repeat;
     &__img {
         padding-top: 58px;
         text-align: center;

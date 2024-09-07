@@ -2,10 +2,12 @@
     &__wrapper {
         padding-top: 37px;
         display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
         justify-content: space-around;
     }
     &__item {
-        width: 360px;
+        max-width: 350px;
     }
     &__title {
         padding-top: 27px;
@@ -19,6 +21,12 @@
         font-size: 14px;
         font-weight: 300;
         color: #3a3a3a;
+        text-wrap: balance;
         text-align: center;
+    }
+    &__img {
+        img {
+            max-width: 100%;
+        }
     }
 }

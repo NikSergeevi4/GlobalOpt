@@ -1,427 +1,630 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Global Opt</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.min.css">
-</head>
-<body>
-    <section class="promo">
-        <div class="container">
-            <header>
-                <div class="header">
-                <div class="header__logo">
-                    <img src="./icons/first_screen/logo.png" alt="logo">
-                </div>
-                <nav>
-                <ul class="header__menu">
-                    <li class="header__menu-item vertical_dot"><a href="#">Переваги</a></li>
-                    <li class="header__menu-item"><a href="#">Послуги</a></li>
-                    <li class="header__menu-item"><a href="#">Ціни</a></li>
-                    <li class="header__menu-item"><a href="#">Схема роботи</a></li>
-                    <li class="header__menu-item"><a href="#">Відгуки</a></li>
-                    <li class="header__menu-item"><a href="#">Контакти</a></li>
-                </ul>
-                </nav>
-                <div class="header__contacts">
-                    <div class="header__text">
-                        <span>Виникли питання?</span>
-                        <br>
-                        <a href="tel:12345678">+1 (232) 456 78 900</a>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Global Opt</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700;900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/style.min.css" />
+    </head>
+    <body>
+        <section class="promo">
+            <div class="container">
+                <header class="header">
+                    <div class="header__logo">
+                        <img src="./icons/logo.png" alt="logo" />
                     </div>
-                    <button class="header__btn">Передзвонити мені</button>
-                </div>
-                </div>
-            </header>
+                    <nav>
+                        <ul class="header__menu">
+                            <li class="header__menu-item">
+                                <a href="#advantages">Переваги</a>
+                            </li>
+                            <li class="header__menu-item">
+                                <a href="#work">Послуги</a>
+                            </li>
+                            <li class="header__menu-item">
+                                <a href="#price">Ціни</a>
+                            </li>
+                            <li class="header__menu-item">
+                                <a href="#cooperation">Схема роботи</a>
+                            </li>
+                            <li class="header__menu-item">
+                                <a href="#reviews">Відгуки</a>
+                            </li>
+                            <li class="header__menu-item">
+                                <a href="#feedback">Контакти</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header__contacts">
+                        <div class="header__text">
+                            <span>Виникли питання?</span>
+                            <br />
+                            <a href="tel:12345678">+1 (232) 456 78 900</a>
+                        </div>
+                        <button type="button" class="header__btn">
+                            Передзвонити мені
+                        </button>
+                    </div>
+                </header>
 
-            <div class="promo__wrapper">
-            <div class="promo__descr"> Global Opt - логістика повного циклу з Україну в Китай</div>
-            <h1 class="promo__title">Доставка вантажів з Китаю </h1>
-            <div class="promo__subtitle">В Україну та ЄС усіма транспортними засобами</div>
+                <div class="promo__wrapper">
+                    <p class="promo__descr">
+                        Global Opt - логістика повного циклу з Україну в Китай
+                    </p>
+                    <h1 class="promo__title">Доставка вантажів з Китаю</h1>
+                    <h2 class="promo__subtitle">
+                        В Україну та ЄС усіма транспортними засобами
+                    </h2>
+                </div>
+                <div class="promo__divider">
+                    <hr class="promo__line" />
+                    <hr class="promo__circle" />
+                    <hr class="promo__line" />
+                </div>
+
+                <div class="services__wrapper">
+                    <div class="services__item">
+                        <div class="services__img">
+                            <img
+                                src="./icons/express.png"
+                                alt="Transportation of oversized and heavy-duty cargo"
+                            />
+                        </div>
+                        <p class="services__descr">
+                            Перевезення негабаритних та велико - тоннажних
+                            вантажів
+                        </p>
+                    </div>
+
+                    <div class="services__item">
+                        <div class="services__img">
+                            <img
+                                src="./icons/optimization.png"
+                                alt="We independently declare and carry out customs clearance with optimization of codes and rates"
+                            />
+                        </div>
+                        <p class="services__descr">
+                            Самостійно декларуємо та проводимо митне очищення з
+                            оптимізацією кодів та ставок
+                        </p>
+                    </div>
+
+                    <div class="services__item">
+                        <div class="services__img">
+                            <img
+                                src="./icons/hand.png"
+                                alt="We carry out direct deliveries from factories door to door"
+                            />
+                        </div>
+                        <p class="services__descr">
+                            Здійснюємо прямі поставки із заводів від дверей до
+                            дверей
+                        </p>
+                    </div>
+
+                    <div class="services__item">
+                        <div class="services__img">
+                            <img
+                                src="./icons/delivery_promo.png"
+                                alt="Express delivery 1-2 days from Guangzhou to Kyiv from $25/kg"
+                            />
+                        </div>
+                        <p class="services__descr">
+                            Експрес доставка 1-2 дні з Гуанчжоу до Київа від
+                            25$/кг
+                        </p>
+                    </div>
+                </div>
+                <button type="button" class="services__btn">
+                    Отримати розрахунок
+                </button>
             </div>
-            <div class="promo__divider">
-            <hr class="promo__line"></hr>
-            <hr class="promo__circle"></hr>
-            <hr class="promo__line"></hr>
-            </div>
+        </section>
 
-            <div class="services__wrapper ">
-                <div class="services__item">
-                    <div class="services__img">
-                        <img src="./icons/first_screen/express.png" alt="Transportation of oversized and heavy-duty cargo">
-                    </div>
-                    <div class="services__descr">Перевезення негабаритних та велико - <br> тоннажних вантажів</div>
-                </div>
-
-                <div class="services__item">
-                    <div class="services__img">
-                        <img src="./icons/first_screen/optimization.png" alt="We independently declare and carry out customs clearance with optimization of codes and rates">
-                    </div>
-                    <div class="services__descr">Самостійно декларуємо та проводимо митне очищення з оптимізацією кодів та ставок</div>
-                </div>
-
-                <div class="services__item">
-                    <div class="services__img">
-                        <img src="./icons/first_screen/hand.png" alt="We carry out direct deliveries from factories door to door">
-                    </div>
-                    <div class="services__descr">Здійснюємо прямі поставки із заводів від дверей до дверей</div>
-                </div>
-
-                <div class="services__item">
-                    <div class="services__img">
-                        <img src="./icons/first_screen/delivery.png" alt="Express delivery 1-2 days from Guangzhou to Kyiv from $25/kg">
-                    </div>
-                    <div class="services__descr">Експрес доставка 1-2 дні з Гуанчжоу до Київа від 25$/кг</div>
-                </div>
-                
-            </div>  
-            <button class="services__btn">Отримати розрахунок</button>
-        </div>
-    </section>
-
-    <section class="advantages">
-        <div class="container">
-            <div class="title">
-                Переваги роботи з GlobalOpt
-            </div>
+        <section id="advantages" class="advantages">
+            <div class="container">
+                <h2 class="title">Переваги роботи з GlobalOpt</h2>
                 <div class="advantages__wrapper">
-                <div class=" advantages__item">
-                    <div class="advantages__img">
-                        <img src="./icons/second_screen/office.png" alt="office">
-                    </div> 
-                    <div class="advantages__text">
-                        <div class="advantages__title">Офіси в Китаї та Києві</div>
-                        <div class="advantages__descr">Офіси розташовані у Києві, столиці України. І у Гуанчжоу, світовому торговому мегаполісі Китаю.</div>
+                    <div class="advantages__item">
+                        <div class="advantages__img">
+                            <img src="./icons/office.png" alt="office" />
+                        </div>
+                        <div class="advantages__text">
+                            <h3 class="advantages__title">
+                                Офіси в Китаї та Києві
+                            </h3>
+                            <p class="advantages__descr">
+                                Офіси розташовані у Києві, столиці України. І у
+                                Гуанчжоу, світовому торговому мегаполісі Китаю.
+                            </p>
+                            <p></p>
+                        </div>
                     </div>
-                </div>
 
-                <div class=" advantages__item">
-                    <div class="advantages__img">
-                        <img src="./icons/second_screen/declaration.png" alt="declaration">
-                    </div> 
-                    <div class="advantages__text">
-                        <div class="advantages__title">Декларуємо вантаж із оптимізацією</div>
-                        <div class="advantages__descr">Йдемо на зустріч своїм клієнтам і допомагаємо розмитнити вантаж із оптимізацією кодів та ставок.</div>
+                    <div class="advantages__item">
+                        <div class="advantages__img">
+                            <img
+                                src="./icons/declaration.png"
+                                alt="declaration"
+                            />
+                        </div>
+                        <div class="advantages__text">
+                            <h3 class="advantages__title">
+                                Декларуємо вантаж із оптимізацією
+                            </h3>
+                            <p class="advantages__descr">
+                                Йдемо на зустріч своїм клієнтам і допомагаємо
+                                розмитнити вантаж із оптимізацією кодів та
+                                ставок.
+                            </p>
+                            <p></p>
+                        </div>
                     </div>
-                </div>
 
-                <div class=" advantages__item">
-                    <div class="advantages__img">
-                        <img src="./icons/second_screen/porsonal.png" alt="personal">
-                    </div> 
-                    <div class="advantages__text">
-                        <div class="advantages__title">Кваліфіковані кадри</div>
-                        <div class="advantages__descr">Наші співробітники мають великий досвід у логістиці з Китаєм та досконало володіють китайською та англійською мовами.</div>
+                    <div class="advantages__item">
+                        <div class="advantages__img">
+                            <img src="./icons/porsonal.png" alt="personal" />
+                        </div>
+                        <div class="advantages__text">
+                            <h3 class="advantages__title">
+                                Кваліфіковані кадри
+                            </h3>
+                            <p class="advantages__descr">
+                                Наші співробітники мають великий досвід у
+                                логістиці з Китаєм та досконало володіють
+                                китайською та англійською мовами.
+                            </p>
+                            <p></p>
+                        </div>
                     </div>
-                </div>
 
-                <div class=" advantages__item">
-                    <div class="advantages__img">
-                        <img src="./icons/second_screen/deweloper.png" alt="Deweloper">
-                    </div> 
-                    <div class="advantages__text">
-                        <div class="advantages__title">Здійснюємо пошук виробників</div>
-                        <div class="advantages__descr">Допомагаємо нашим клієнтам знайти товар, що вас цікавить, або виробника в Китаї.</div>
+                    <div class="advantages__item">
+                        <div class="advantages__img">
+                            <img src="./icons/deweloper.png" alt="Deweloper" />
+                        </div>
+                        <div class="advantages__text">
+                            <h3 class="advantages__title">
+                                Здійснюємо пошук виробників
+                            </h3>
+                            <p class="advantages__descr">
+                                Допомагаємо нашим клієнтам знайти товар, що вас
+                                цікавить, або виробника в Китаї.
+                            </p>
+                        </div>
                     </div>
-                </div>
 
-                <div class=" advantages__item">
-                    <div class="advantages__img">
-                        <img src="./icons/second_screen/storage.png" alt="storage">
-                    </div> 
-                    <div class="advantages__text">
-                        <div class="advantages__title">Власний склад у Китаї</div>
-                        <div class="advantages__descr">Свій склад у Китаї, дозволяє збирати та перевіряти та упаковувати ваші товари, перед відправкою.</div>
+                    <div class="advantages__item">
+                        <div class="advantages__img">
+                            <img src="./icons/storage.png" alt="storage" />
+                        </div>
+                        <div class="advantages__text">
+                            <h3 class="advantages__title">
+                                Власний склад у Китаї
+                            </h3>
+                            <p class="advantages__descr">
+                                Свій склад у Китаї, дозволяє збирати та
+                                перевіряти та упаковувати ваші товари, перед
+                                відправкою.
+                            </p>
+                        </div>
                     </div>
-                </div>
 
-                <div class=" advantages__item">
-                    <div class="advantages__img">
-                        <img src="./icons/second_screen/money.png" alt="money">
-                    </div> 
-                    <div class="advantages__text">
-                        <div class="advantages__title">Переказ грошей до Китаю</div>
-                        <div class="advantages__descr">Допомагаємо перекладати та оплачувати товар у Китаї на пільгових умовах</div>
+                    <div class="advantages__item">
+                        <div class="advantages__img">
+                            <img src="./icons/money.png" alt="money" />
+                        </div>
+                        <div class="advantages__text">
+                            <h3 class="advantages__title">
+                                Переказ грошей до Китаю
+                            </h3>
+                            <p class="advantages__descr">
+                                Допомагаємо перекладати та оплачувати товар у
+                                Китаї на пільгових умовах
+                            </p>
+                        </div>
                     </div>
-                </div>
 
-                <div class=" advantages__item">
-                    <div class="advantages__img">
-                        <img src="./icons/second_screen/delivery.png" alt="delivery">
-                    </div> 
-                    <div class="advantages__text">
-                        <div class="advantages__title">Робимо оптові поставки під ключ</div>
-                        <div class="advantages__descr">Беремо на себе всі турботи пов'язані із закупівлею, перевіркою на якість, логістикою та розмитненням. Від вас потрібно лише заповнити технічне завдання, схвалити зразки товарів та після прийняти товар на своєму складі!</div>
+                    <div class="advantages__item">
+                        <div class="advantages__img">
+                            <img src="./icons/delivery.png" alt="delivery" />
+                        </div>
+                        <div class="advantages__text">
+                            <h3 class="advantages__title">
+                                Робимо оптові поставки під ключ
+                            </h3>
+                            <p class="advantages__descr">
+                                Беремо на себе всі турботи пов'язані із
+                                закупівлею, перевіркою на якість, логістикою та
+                                розмитненням. Від вас потрібно лише заповнити
+                                технічне завдання, схвалити зразки товарів та
+                                після прийняти товар на своєму складі!
+                            </p>
+                        </div>
                     </div>
-                </div>
 
-                <div class=" advantages__item">
-                    <div class="advantages__img">
-                        <img src="./icons/second_screen/fly.png" alt="fly">
-                    </div> 
-                    <div class="advantages__text">
-                        <div class="advantages__title">Поїздка на виробництво Китай</div>
-                        <div class="advantages__descr">Ми маємо великий досвід у бізнес поїздках по Китаю. Ми з великою радістю та бажанням організуємо вам таку подорож до Китаю під ключ. Зробимо візу, трансфер із аеропорту, забронюємо готель, надамо перекладача. Організуємо поїздку на виробництво. Шоп тур. Меблевий тур.</div>
+                    <div class="advantages__item">
+                        <div class="advantages__img">
+                            <img src="./icons/fly.png" alt="fly" />
+                        </div>
+                        <div class="advantages__text">
+                            <h3 class="advantages__title">
+                                Поїздка на виробництво Китай
+                            </h3>
+                            <p class="advantages__descr">
+                                Ми маємо великий досвід у бізнес поїздках по
+                                Китаю. Ми з великою радістю та бажанням
+                                організуємо вам таку подорож до Китаю під ключ.
+                                Зробимо візу, трансфер із аеропорту, забронюємо
+                                готель, надамо перекладача. Організуємо поїздку
+                                на виробництво. Шоп тур. Меблевий тур.
+                            </p>
+                        </div>
                     </div>
                 </div>
-                </div>
-                </div>
-    </section>
-    <section class="work">
-        <div class="container">
-            <div class="title">Наша робота - більше ніж просто доставка </div>
-            <hr class="divider">
-            <div class="subtitle">Ми організуємо перевезення з Китаю - оперативно та надійно, з урахуванням особливостей вантажу <br>
-                і ваших вимог щодо термінів та бюджету.</div>
+            </div>
+        </section>
+        <section id="work" class="work">
+            <div class="container">
+                <h2 class="title">Наша робота - більше ніж просто доставка</h2>
+                <hr class="divider" />
+                <h3 class="subtitle">
+                    Ми організуємо перевезення з Китаю - оперативно та надійно,
+                    з урахуванням особливостей вантажу і ваших вимог щодо
+                    термінів та бюджету.
+                </h3>
                 <div class="work__wrapper">
                     <div class="work__item">
                         <div class="work__img">
-                            <img src="./img/third_screen/cargo_insurance.jpg" alt="cargo">
+                            <img src="./img/cargo_insurance.jpg" alt="cargo" />
                         </div>
-                        <div class="work__title">Страхування вантажу</div>
-                        <div class="work__descr">Усі вантажі, логістику яких здійснює Global Opt, застраховано. Ми гарантуємо повне відшкодування вартості вантажу у випадках, передбачених страховою угодою. Усі ваші тривоги наша компанія бере на себе.</div>
+                        <h3 class="work__title">Страхування вантажу</h3>
+                        <p class="work__descr">
+                            Усі вантажі, логістику яких здійснює Global Opt,
+                            застраховано. Ми гарантуємо повне відшкодування
+                            вартості вантажу у випадках, передбачених страховою
+                            угодою. Усі ваші тривоги наша компанія бере на себе.
+                        </p>
                     </div>
 
                     <div class="work__item">
                         <div class="work__img">
-                            <img src="./img/third_screen/logistic.jpg" alt="logistic">
+                            <img src="./img/logistic.jpg" alt="logistic" />
                         </div>
-                        <div class="work__title">Логістика останньої милі</div>
-                        <div class="work__descr">Ми здійснюємо доставку вашого вантажу до конкретної адреси. Привіз узгоджується менеджерами за телефоном, попередньо за добу та за годину до доставки. Також ми надаємо послуги вантажників за місцем доставки вантажу.</div>
-                        
+                        <h3 class="work__title">Логістика останньої милі</h3>
+                        <p class="work__descr">
+                            Ми здійснюємо доставку вашого вантажу до конкретної
+                            адреси. Привіз узгоджується менеджерами за
+                            телефоном, попередньо за добу та за годину до
+                            доставки. Також ми надаємо послуги вантажників за
+                            місцем доставки вантажу.
+                        </p>
                     </div>
 
                     <div class="work__item">
                         <div class="work__img">
-                            <img src="./img/third_screen/future.jpg" alt="future">
+                            <img src="./img/future.jpg" alt="future" />
                         </div>
-                        <div class="work__title">Ми завжди дивимося вперед</div>
-                        <div class="work__descr">Філософія нашої компанії, робити себе та своїх партнерів по всьому світу, успішними та багатими. Тому ми завжди відкриті до діалогу про партнерство та інвестиції.</div>
-                    </div>
-                </div>
-        </div>
-    </section>
-
-    <section class="support">
-        <div class="container">
-            <img src="./icons/fourth_screen/china_logo.png" alt="agent">
-            <div class="white__title">Агент в Китаї</div>
-            <div class="white__subtitle">Україномовні представники компанії легко знайдуть саме той товар, який відповідатиме Вашим <br> запитам як за якістю, так і за ціною.</div>
-        </div>
-    </section>
-
-    <section class="price">
-        <div class="container">
-            <div class="title">Ціни на будь-який варіант доставки </div>
-            <hr class="divider">
-            <div class="subtitle">Перевезення вантажів на далекі відстані без обмежень. <br>
-            Будь-який вантаж доставимо вчасно.</div>
-            <div class="price__wrapper">
-                <div class="price__card">
-                    <div class="price__title">Доставка морем</div>
-                    <div class="price__img">
-                        <img src="./icons/fifth_screen/sea.png" alt="sea">
-                    </div>
-                    <div class="price__subtitle">Доставка 35-50 діб <br> <span>від 0.3$ за 1кг</span></div>
-                    <div class="price__descr">Морські перевезення вантажів з Китаю <br> до України за 35 днів <br>
-                    з проходженням митниці</div>
-                    <button class="price__btn">Детальніше</button>
-                </div>
-
-                <div class="price__card">
-                    <div class="price__title">З/Д доставка</div>
-                    <div class="price__img">
-                        <img src="./icons/fifth_screen/train.png" alt="train">
-                    </div>
-                    <div class="price__subtitle">Доставка 15-28 діб <br> <span>від 1$ за 1кг</span></div>
-                    <div class="price__descr">Залізничні перевезення вантажів з Китаю до  України від 2 тижнів <br>
-                    з проходженням митниці</div>
-                    <button class="price__btn">Детальніше</button>
-                </div>
-
-                <div class="price__card">
-                    <div class="price__title">Автодоставка</div>
-                    <div class="price__img">
-                        <img src="./icons/fifth_screen/track.png" alt="track">
-                    </div>
-                    <div class="price__subtitle">Доставка 12-20 діб <br> <span>від 0.3$ за 1кг</span></div>
-                    <div class="price__descr">Автоперевезення вантажів з Китаю <br> до України за 35 днів <br>
-                    з проходженням митниці</div>
-                    <button class="price__btn">Детальніше</button>
-                </div>
-
-                <div class="price__card">
-                    <div class="price__title">АВІА доставка</div>
-                    <div class="price__img">
-                        <img src="./icons/fifth_screen/fly.png" alt="fly">
-                    </div>
-                    <div class="price__subtitle">Доставка 1-12 діб <br> <span>від 0.3$ за 1кг</span></div>
-                    <div class="price__descr">Авіа перевезення вантажів з Китаю <br> до України за 35 днів <br>
-                    з проходженням митниці</div>
-                    <button class="price__btn">Детальніше</button>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="consultation">
-        <div class="container">
-            <div class="consultation__title">Замовити безкоштовну консультацію</div>
-            <div class="consultation__img">
-                <img src="./icons/fifth_screen/consultation.png" alt="consultation">
-            </div>
-            <div class="consultation__wrapper">
-                <form action="">
-                    <input type="name" placeholder="Введіть ім'я...">
-                    <input type="phone" placeholder="Ваш номер телефону...">
-                    <input type="email" placeholder="Ваш e-mail...">
-                    <button type="submit">Відправити заявку</button>
-                    
-                    
-                </form>
-
-            </div>
-        </div>
-    </section>
-
-    <section class="manager">
-        <div class="container">
-            <div class="manager__img">
-                <img src="./icons/fourth_screen/china_logo.png" alt="manager">
-            </div>
-            <div class="white__title">Менеджери компанії</div>
-            <div class="white__subtitle">Підберуть для Вас оптимальну схему перевезення вантажів. Проведуть контроль закупівель, організують прямі <br>постачання від заводу-виробника.</div>
-        </div>
-    </section>
-
-    <section class="cooperation">
-        <div class="container">
-            <div class="title">Схема роботи з нами</div>
-            <div class="cooperation__wrapper">
-                <div class="cooperation__item">
-                    <div class="cooperation__img">
-                        <img src="./icons/seventh_screen/request.png" alt="request">
-                    </div>
-                    <div class="cooperation__title">Звявка</div>
-                    <div class="cooperation__descr">Ви залишаєте заявку на нашому сайті або дзвоніть нам
-                    </div>
-                </div>
-
-                <div class="cooperation__item">
-                    <div class="cooperation__img">
-                        <img src="./icons/seventh_screen/analitik.png" alt="analitik">
-                    </div>
-                    <div class="cooperation__title">Аналітика доставки</div>
-                    <div class="cooperation__descr">Ми прораховуємо варіанти доставки Вашого вантажу
-                    </div>
-                </div>
-
-                <div class="cooperation__item">
-                    <div class="cooperation__img">
-                        <img src="./icons/seventh_screen/contract.png" alt="contract">
-                    </div>
-                    <div class="cooperation__title">Договір</div>
-                    <div class="cooperation__descr">Укладаємо з Вами договір про постачання вантажу з Китаю
-                    </div>
-                </div>
-
-                <div class="cooperation__item">
-                    <div class="cooperation__img">
-                        <img src="./icons/seventh_screen/delivery.png" alt="delivery">
-                    </div>
-                    <div class="cooperation__title">Доставка на наш склад</div>
-                    <div class="cooperation__descr">Зв'язуємося з Вашим постачальником у Китаї та домовляємося про доставку вантажу на наш склад
-                    </div>
-                </div>
-
-                <div class="cooperation__item">
-                    <div class="cooperation__img">
-                        <img src="./icons/seventh_screen/check.png" alt="check">
-                    </div>
-                    <div class="cooperation__title">Перевірка вантажу</div>
-                    <div class="cooperation__descr">Ми перевіряємо, збираємо та упаковуємо перед відправкою Вашвантаж на своєму складі
-                    </div>
-                </div>
-
-                <div class="cooperation__item">
-                    <div class="cooperation__img">
-                        <img src="./icons/seventh_screen/delivery_gryz.png" alt="delivery">
-                    </div>
-                    <div class="cooperation__title">Доставка вантажу</div>
-                    <div class="cooperation__descr">Ми перевозимо ваш вантаж до місця призначення та виробляємо митне очищення
-                    </div>
-                </div>
-
-                <div class="cooperation__item">
-                    <div class="cooperation__img">
-                        <img src="./icons/seventh_screen/payment.png" alt="payment">
-                    </div>
-                    <div class="cooperation__title">Оплата</div>
-                    <div class="cooperation__descr">Оплачуєте доставку вантажу при <br> отриманні
+                        <h3 class="work__title">Ми завжди дивимося вперед</h3>
+                        <p class="work__descr">
+                            Філософія нашої компанії, робити себе та своїх
+                            партнерів по всьому світу, успішними та багатими.
+                            Тому ми завжди відкриті до діалогу про партнерство
+                            та інвестиції.
+                        </p>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="reviews">
-        <div class="container">
-            <div class="title">Відгуки наших клієнтів </div>
-            <hr class="divider">
-            <div class="subtitle">Ми завжди намагаємося допомогти клієнтам, аби вони звертались до нас знову</div>
-        </div>
-    </section>
-
-    <section class="feedback">
-        <div class="container">
-            <div class="feedback__wrapper">
-                <div class="feedback__title">Залишилися питання? <br> <span>Напишіть нам!</span></div>
-                <form action="">
-                    <input type="text" placeholder="Ваше ім'я...">
-                    <input type="tel" placeholder="Ваш номер телефону...">
-                    <input type="email" placeholder="Ваш e-mail...">
-                    <textarea name="content" id="content" placeholder="Повідомлення..."></textarea>
-                    <button type="submit">Надіслати заявку</button>
-                </form>
+        <section class="support">
+            <div class="container">
+                <img src="./icons/china_logo.png" alt="agent" />
+                <h2 class="white__title">Агент в Китаї</h2>
+                <h3 class="white__subtitle">
+                    Україномовні представники компанії легко знайдуть саме той
+                    товар, який відповідатиме Вашим<br />запитам як за якістю,
+                    так і за ціною.
+                </h3>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d20309.098794482732!2d30.472209130688473!3d50.485094687772566!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cdec53762c3f%3A0x921e13594fcabca3!2sKurenivskyi%20Park!5e0!3m2!1sru!2sua!4v1724254632877!5m2!1sru!2sua" width="100%" height="500px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </section>
-    <footer>
-        <div class="container">
-            <div class="footer__wrapper">
-                <div class="footer__box">
-                    <div class="footer__logo">
-                        <img src="./icons/first_screen/logo.png" alt="logo">
+        <section id="price" class="price">
+            <div class="container">
+                <h2 class="title">Ціни на будь-який варіант доставки</h2>
+                <hr class="divider" />
+                <h3 class="subtitle">
+                    Перевезення вантажів на далекі відстані без обмежень.<br />
+                    Будь-який вантаж доставимо вчасно.
+                </h3>
+                <div class="price__wrapper">
+                    <div class="price__card">
+                        <h3 class="price__title">Доставка морем</h3>
+                        <div class="price__img">
+                            <img src="./icons/sea.png" alt="sea" />
+                        </div>
+                        <p class="price__subtitle">
+                            Доставка 35-50 діб<br /><span>від 0.3$ за 1кг</span>
+                        </p>
+                        <p class="price__descr">
+                            Морські перевезення вантажів з Китаю<br />до України
+                            за 35 днів <br />
+                            з проходженням митниці
+                        </p>
+                        <button type="button" class="price__btn">
+                            Детальніше
+                        </button>
                     </div>
-                    <div class="footer__title">Global Opt - доставка вантажів з Китаю в Україну та ЄС</div>
+
+                    <div class="price__card">
+                        <h3 class="price__title">З/Д доставка</h3>
+                        <div class="price__img">
+                            <img src="./icons/train.png" alt="train" />
+                        </div>
+                        <p class="price__subtitle">
+                            Доставка 15-28 діб<br /><span>від 1$ за 1кг</span>
+                        </p>
+                        <p class="price__descr">
+                            Залізничні перевезення вантажів з Китаю до України
+                            від 2 тижнів<br />з проходженням митниці
+                        </p>
+                        <button type="button" class="price__btn">
+                            Детальніше
+                        </button>
+                    </div>
+
+                    <div class="price__card">
+                        <h3 class="price__title">Автодоставка</h3>
+                        <div class="price__img">
+                            <img src="./icons/track.png" alt="track" />
+                        </div>
+                        <p class="price__subtitle">
+                            Доставка 12-20 діб<br /><span>від 0.3$ за 1кг</span>
+                        </p>
+                        <p class="price__descr">
+                            Автоперевезення вантажів з Китаю<br />до України за
+                            35 днів<br />
+                            з проходженням митниці
+                        </p>
+                        <button type="button" class="price__btn">
+                            Детальніше
+                        </button>
+                    </div>
+
+                    <div class="price__card">
+                        <h3 class="price__title">АВІА доставка</h3>
+                        <div class="price__img">
+                            <img src="./icons/fly.png" alt="fly" />
+                        </div>
+                        <p class="price__subtitle">
+                            Доставка 1-12 діб<br /><span>від 0.3$ за 1кг</span>
+                        </p>
+                        <p class="price__descr">
+                            Авіа перевезення вантажів з Китаю<br />до України за
+                            35 днів<br />
+                            з проходженням митниці
+                        </p>
+                        <button type="button" class="price__btn">
+                            Детальніше
+                        </button>
+                    </div>
                 </div>
+            </div>
+        </section>
+
+        <section class="consultation">
+            <div class="container">
+                <h2 class="consultation__title">
+                    Замовити безкоштовну консультацію
+                </h2>
+                <div class="consultation__wrapper">
+                    <div class="consultation__img">
+                        <img
+                            src="./icons/consultation.png"
+                            alt="consultation"
+                        />
+                    </div>
+                    <form action="">
+                        <input type="name" placeholder="Введіть ім'я..." />
+                        <input
+                            type="phone"
+                            placeholder="Ваш номер телефону..."
+                        />
+                        <input type="email" placeholder="Ваш e-mail..." />
+                        <button type="submit">Відправити заявку</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="manager">
+            <div class="container">
+                <div class="manager__img">
+                    <img src="./icons/china_logo.png" alt="manager" />
+                </div>
+                <h2 class="white__title">Менеджери компанії</h2>
+                <h3 class="white__subtitle">
+                    Підберуть для Вас оптимальну схему перевезення вантажів.
+                    Проведуть контроль закупівель, організують прямі<br />постачання
+                    від заводу-виробника.
+                </h3>
+            </div>
+        </section>
+
+        <section id="cooperation" class="cooperation">
+            <div class="container">
+                <h2 class="title">Схема роботи з нами</h2>
+                <div class="cooperation__wrapper">
+                    <div class="cooperation__item">
+                        <div class="cooperation__img">
+                            <img src="./icons/request.png" alt="request" />
+                        </div>
+                        <h3 class="cooperation__title">Звявка</h3>
+                        <p class="cooperation__descr">
+                            Ви залишаєте заявку на нашому сайті або дзвоніть нам
+                        </p>
+                    </div>
+
+                    <div class="cooperation__item">
+                        <div class="cooperation__img">
+                            <img src="./icons/analitik.png" alt="analitik" />
+                        </div>
+                        <h3 class="cooperation__title">Аналітика доставки</h3>
+                        <p class="cooperation__descr">
+                            Ми прораховуємо варіанти доставки Вашого вантажу
+                        </p>
+                    </div>
+
+                    <div class="cooperation__item">
+                        <div class="cooperation__img">
+                            <img src="./icons/contract.png" alt="contract" />
+                        </div>
+                        <h3 class="cooperation__title">Договір</h3>
+                        <p class="cooperation__descr">
+                            Укладаємо з Вами договір про постачання вантажу з
+                            Китаю
+                        </p>
+                    </div>
+
+                    <div class="cooperation__item">
+                        <div class="cooperation__img">
+                            <img src="./icons/delivery.png" alt="delivery" />
+                        </div>
+                        <h3 class="cooperation__title">
+                            Доставка на наш склад
+                        </h3>
+                        <p class="cooperation__descr">
+                            Зв'язуємося з Вашим постачальником у Китаї та
+                            домовляємося про доставку вантажу на наш склад
+                        </p>
+                    </div>
+
+                    <div class="cooperation__item">
+                        <div class="cooperation__img">
+                            <img src="./icons/check.png" alt="check" />
+                        </div>
+                        <h3 class="cooperation__title">Перевірка вантажу</h3>
+                        <p class="cooperation__descr">
+                            Ми перевіряємо, збираємо та упаковуємо перед
+                            відправкою Вашвантаж на своєму складі
+                        </p>
+                    </div>
+
+                    <div class="cooperation__item">
+                        <div class="cooperation__img">
+                            <img
+                                src="./icons/delivery_gryz.png"
+                                alt="delivery"
+                            />
+                        </div>
+                        <h3 class="cooperation__title">Доставка вантажу</h3>
+                        <p class="cooperation__descr">
+                            Ми перевозимо ваш вантаж до місця призначення та
+                            виробляємо митне очищення
+                        </p>
+                    </div>
+
+                    <div class="cooperation__item">
+                        <div class="cooperation__img">
+                            <img
+                                src="./icons/seventh_screen/payment.png"
+                                alt="payment"
+                            />
+                        </div>
+                        <h3 class="cooperation__title">Оплата</h3>
+                        <p class="cooperation__descr">
+                            Оплачуєте доставку вантажу при<br />отриманні
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="reviews" class="reviews">
+            <div class="container">
+                <h2 class="title">Відгуки наших клієнтів</h2>
+                <hr class="divider" />
+                <h3 class="subtitle">
+                    Ми завжди намагаємося допомогти клієнтам, аби вони
+                    звертались до нас знову
+                </h3>
+                <div class="slider" style="color: brown">
+                    ТУТ ПОВИНЕН БУТИ СЛАЙДЕР
+                </div>
+            </div>
+        </section>
+
+        <section id="feedback" class="feedback">
+            <div class="container">
+                <div class="feedback__wrapper">
+                    <h2 class="feedback__title">
+                        Залишилися питання?<br /><span>Напишіть нам!</span>
+                    </h2>
+                    <form action="">
+                        <input type="text" placeholder="Ваше ім'я..." />
+                        <input type="tel" placeholder="Ваш номер телефону..." />
+                        <input type="email" placeholder="Ваш e-mail..." />
+                        <textarea
+                            name="content"
+                            id="content"
+                            placeholder="Повідомлення..."
+                        ></textarea>
+                        <button type="submit">Надіслати заявку</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d20309.098794482732!2d30.472209130688473!3d50.485094687772566!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cdec53762c3f%3A0x921e13594fcabca3!2sKurenivskyi%20Park!5e0!3m2!1sru!2sua!4v1724254632877!5m2!1sru!2sua"
+                width="100%"
+                height="500px"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__wrapper">
+                    <div class="footer__box">
+                        <div class="footer__logo">
+                            <img src="./icons/logo.png" alt="logo" />
+                        </div>
+                        <h2 class="footer__title">
+                            Global Opt - доставка вантажів з Китаю в Україну та
+                            ЄС
+                        </h2>
+                    </div>
                     <div class="footer__contacts">
-                    <div class="footer__text">
-                        <span>Виникли питання?</span>
-                        <br>
-                        <a href="tel:12345678">+1 (232) 456 78 900</a>
+                        <div class="footer__text">
+                            <span>Виникли питання?</span>
+                            <br />
+                            <a href="tel:12345678">+1 (232) 456 78 900</a>
+                        </div>
+                        <button type="button" class="footer__btn">
+                            Передзвонити мені
+                        </button>
                     </div>
-                    <button class="footer__btn">Передзвонити мені</button>
+                </div>
+                <hr class="footer__divider" />
+                <div class="footer__links">
+                    <a class="footer__link" href="#">© 2010 Scratch.com.ua</a>
+                    <a class="footer__link-orange" href="#"
+                        >Політика конфідеційності</a
+                    >
+                    <a class="footer__link" href="#"
+                        >Розробка сайту <img src="./icons/duh.png" alt="duh"
+                    /></a>
                 </div>
             </div>
-            <hr class="footer__divider">
-            <div class="footer__links">
-                <a href="#">© 2010 Scratch.com.ua</a>
-                <a href="#">Політика конфідеційності</a>
-                <a href="#">Розробка сайту <img src="./icons/footer/duh.png" alt="duh"></a>
-            </div>
-        </div>
-    </footer>
-
-    
-
-</body>
+        </footer>
+    </body>
 </html>

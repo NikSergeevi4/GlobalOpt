@@ -1,0 +1,157 @@
+@media (max-width: 1200px) {
+    .header {
+        &__contacts {
+            flex-direction: column;
+            a {
+                font-size: 14px;
+            }
+        }
+        &__menu-item {
+            padding: 0 14px;
+        }
+    }
+    .promo {
+        min-height: 720px;
+        &__title {
+            font-size: 58px;
+        }
+        &__subtitle {
+            font-size: 36px;
+        }
+    }
+    .services {
+        &__descr {
+            font-size: 14px;
+            max-width: 200px;
+        }
+    }
+
+    .advantages {
+        &__descr {
+            font-size: 12px;
+        }
+    }
+
+    .footer {
+        &__contacts {
+            flex-direction: column;
+            a {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .header {
+        &__logo {
+            width: 72px;
+        }
+        &__menu-item {
+            a {
+                font-size: 12px;
+            }
+        }
+        &__btn {
+            height: 38px;
+        }
+    }
+
+    .services {
+        &__item {
+            flex-basis: calc(50% - 8px);
+        }
+    }
+
+    .advantages {
+        &__descr {
+            font-size: 14px;
+        }
+    }
+
+    .cooperation {
+        &__item {
+            flex-basis: calc(50% - 8px);
+        }
+    }
+
+    .footer {
+        &__logo {
+            width: 72px;
+        }
+        &__btn {
+            height: 38px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        &__contacts {
+            flex-direction: row;
+            justify-content: space-around;
+            a {
+                font-size: 14px;
+            }
+        }
+        &__menu {
+            display: none;
+        }
+    }
+
+    .promo {
+        min-height: 720px;
+        &__title {
+            font-size: 34px;
+        }
+        &__subtitle {
+            font-size: 24px;
+        }
+        &__descr {
+            font-size: 18px;
+        }
+    }
+
+    .footer {
+        &__title {
+            padding-left: 24px;
+            font-size: 14px;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .nav {
+        display: none;
+    }
+    .header {
+        &__logo {
+            width: 60px;
+        }
+        &__contacts {
+            flex-direction: column;
+            a {
+                font-size: 15px;
+            }
+        }
+        &__btn {
+            height: 45px;
+            width: 150px;
+        }
+    }
+    .footer {
+        &__title {
+            font-size: 12px;
+        }
+        &__link {
+            font-size: 12pxpx;
+            img {
+                display: none;
+            }
+        }
+        &__btn {
+            height: 40px;
+            width: 150px;
+        }
+    }
+}
