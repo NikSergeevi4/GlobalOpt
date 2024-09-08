@@ -140,18 +140,46 @@
         }
     }
     .footer {
+        &__wrapper {
+            flex-direction: column;
+            align-items: stretch;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+        &__logo {
+            display: flex;
+            align-items: center;
+        }
         &__title {
             font-size: 12px;
         }
+        &__text {
+            a {
+                font-size: 13px;
+            }
+        }
+        &__contacts {
+            flex-direction: row;
+            justify-content: space-around;
+        }
         &__link {
-            font-size: 12pxpx;
+            font-size: 10px;
             img {
                 display: none;
             }
         }
+        &__links {
+            padding-bottom: 12px;
+            text-align: center;
+        }
+        &__link-orange {
+            text-align: center;
+            font-size: 12px;
+        }
         &__btn {
+            font-size: 11px;
             height: 40px;
-            width: 150px;
+            width: 136px;
         }
     }
 }
